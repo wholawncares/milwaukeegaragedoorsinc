@@ -1,0 +1,676 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/commercial-garage-door-services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/commercial-garage-door-services",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/custom-garage-door-design.html",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/custom-garage-door-design",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/residential-garage-door-services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/residential-garage-door-services",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-automation.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-automation",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-cable-repair.html",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-cable-repair",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-chain-and-belt-replacement.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-chain-and-belt-replacement",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-dent-removal.html",
+      "destination": "/garage-door-panel-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-dent-removal",
+      "destination": "/garage-door-panel-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-hinge-repair.html",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-hinge-repair",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-insulation.html",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-insulation",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-keypad-installation.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-keypad-installation",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-motor-replacement.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-motor-replacement",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-opener-installation.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-opener-installation",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-painting-and-finishing.html",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-painting-and-finishing",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-remote-programming.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-remote-programming",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-roller-replacement.html",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-roller-replacement",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-safety-inspection.html",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-safety-inspection",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-sensor-repair.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-sensor-repair",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-track-repair.html",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-track-repair",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-tune-up.html",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-tune-up",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-weather-sealing.html",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-weather-sealing",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-window-installation.html",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-window-installation",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/smart-garage-door-opener-installation.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/smart-garage-door-opener-installation",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-downtown-zion.html",
+      "destination": "/garage-doors-central-zion",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-downtown-zion",
+      "destination": "/garage-doors-central-zion",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-23rd-street-district.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-23rd-street-district",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-beach-park.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-beach-park",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-bridlewood.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-bridlewood",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-carmel-boulevard.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-carmel-boulevard",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-eastside.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-eastside",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-green-bay-road.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-green-bay-road",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-kellogg-avenue.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-kellogg-avenue",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-lakeview.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-lakeview",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-lewis-avenue.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-lewis-avenue",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-northside.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-northside",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-rolling-meadows.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-rolling-meadows",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-sheridan-road-corridor.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-sheridan-road-corridor",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-shiloh-boulevard.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-shiloh-boulevard",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-southside.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-southside",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-westside.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-westside",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-zion-harbor.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-zion-harbor",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-zion-heights.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-zion-heights",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-garage-door-repair.html",
+      "destination": "/emergency-garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-installation.html",
+      "destination": "/garage-door-installation",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-maintenance.html",
+      "destination": "/garage-door-maintenance",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-off-track-repair.html",
+      "destination": "/garage-door-off-track-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-opener-repair.html",
+      "destination": "/garage-door-opener-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-panel-replacement.html",
+      "destination": "/garage-door-panel-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-repair.html",
+      "destination": "/garage-door-repair",
+      "permanent": true
+    },
+    {
+      "source": "/garage-door-spring-replacement.html",
+      "destination": "/garage-door-spring-replacement",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-bartletts-north-shore-acres.html",
+      "destination": "/garage-doors-bartletts-north-shore-acres",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-beulah-park.html",
+      "destination": "/garage-doors-beulah-park",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-brighton-ponds.html",
+      "destination": "/garage-doors-brighton-ponds",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-butterfield-place.html",
+      "destination": "/garage-doors-butterfield-place",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-central-zion.html",
+      "destination": "/garage-doors-central-zion",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-countrywood-hills.html",
+      "destination": "/garage-doors-countrywood-hills",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-cypress-park.html",
+      "destination": "/garage-doors-cypress-park",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-harbor-ridge.html",
+      "destination": "/garage-doors-harbor-ridge",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-hermon.html",
+      "destination": "/garage-doors-hermon",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-highland-meadows.html",
+      "destination": "/garage-doors-highland-meadows",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-joanna.html",
+      "destination": "/garage-doors-joanna",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-kedron-park.html",
+      "destination": "/garage-doors-kedron-park",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-lorelei-acres.html",
+      "destination": "/garage-doors-lorelei-acres",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-shepherds-crossing.html",
+      "destination": "/garage-doors-shepherds-crossing",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-sheridan-hills.html",
+      "destination": "/garage-doors-sheridan-hills",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-sheridan-lake-view.html",
+      "destination": "/garage-doors-sheridan-lake-view",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-sheridan-lake.html",
+      "destination": "/garage-doors-sheridan-lake",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-south-central-zion.html",
+      "destination": "/garage-doors-south-central-zion",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-stonebridge-crossing.html",
+      "destination": "/garage-doors-stonebridge-crossing",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-sunset-ridge.html",
+      "destination": "/garage-doors-sunset-ridge",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-west-zion.html",
+      "destination": "/garage-doors-west-zion",
+      "permanent": true
+    },
+    {
+      "source": "/garage-doors-westside-hills.html",
+      "destination": "/garage-doors-westside-hills",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/terms-of-service.html",
+      "destination": "/terms-of-service",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garage-door-maintenance-checklist-for-zion-homeowners.html",
+      "destination": "/blog/garage-door-maintenance-checklist-for-zion-homeowners",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garage-door-off-track-in-zion-causes-and-fixes.html",
+      "destination": "/blog/garage-door-off-track-in-zion-causes-and-fixes",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garage-door-opener-repair-vs-replacement-which-is-better.html",
+      "destination": "/blog/garage-door-opener-repair-vs-replacement-which-is-better",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garage-door-panel-replacement-cost-in-zion.html",
+      "destination": "/blog/garage-door-panel-replacement-cost-in-zion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garage-door-repair-cost-in-zion-what-to-expect.html",
+      "destination": "/blog/garage-door-repair-cost-in-zion-what-to-expect",
+      "permanent": true
+    },
+    {
+      "source": "/blog/garage-door-spring-replacement-in-zion-what-to-know.html",
+      "destination": "/blog/garage-door-spring-replacement-in-zion-what-to-know",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-fix-a-garage-door-sensor.html",
+      "destination": "/blog/how-to-fix-a-garage-door-sensor",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-insulate-a-garage-door.html",
+      "destination": "/blog/how-to-insulate-a-garage-door",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-lubricate-garage-door-rollers-and-hinges.html",
+      "destination": "/blog/how-to-lubricate-garage-door-rollers-and-hinges",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-prepare-your-garage-door-for-winter-in-zion.html",
+      "destination": "/blog/how-to-prepare-your-garage-door-for-winter-in-zion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-program-a-garage-door-remote.html",
+      "destination": "/blog/how-to-program-a-garage-door-remote",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-seal-a-garage-door-for-winter-in-zion.html",
+      "destination": "/blog/how-to-seal-a-garage-door-for-winter-in-zion",
+      "permanent": true
+    },
+    {
+      "source": "/blog/what-every-zion-homeowner-should-check-before-hiring-a-garage-door-pro.html",
+      "destination": "/blog/what-every-zion-homeowner-should-check-before-hiring-a-garage-door-pro",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-garage-door-making-a-grinding-noise.html",
+      "destination": "/blog/why-is-my-garage-door-making-a-grinding-noise",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-garage-door-remote-not-working.html",
+      "destination": "/blog/why-is-my-garage-door-remote-not-working",
+      "permanent": true
+    }
+  ]
+}

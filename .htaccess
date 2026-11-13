@@ -1,0 +1,182 @@
+# Clean URLs for Apache / LiteSpeed hosts (SiteGround, cPanel, Hostinger,
+# GoDaddy, Namecheap…). Netlify, Vercel and Cloudflare Pages ignore this file
+# and use netlify.toml / vercel.json instead. Safe to leave in place anywhere.
+
+Options -MultiViews
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  # Force HTTPS and the apex host (must stay before the page rules).
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\. [NC]
+  RewriteRule ^ https://milwaukeegaragedoorsinc.com%{REQUEST_URI} [R=301,L,NE]
+  # Pruned pages redirect to their replacement pages (must stay before the generic rules).
+  RewriteRule ^commercial-garage-door-services\.html$ /services [R=301,L]
+  RewriteRule ^commercial-garage-door-services$ /services [R=301,L]
+  RewriteRule ^custom-garage-door-design\.html$ /garage-door-installation [R=301,L]
+  RewriteRule ^custom-garage-door-design$ /garage-door-installation [R=301,L]
+  RewriteRule ^residential-garage-door-services\.html$ /services [R=301,L]
+  RewriteRule ^residential-garage-door-services$ /services [R=301,L]
+  RewriteRule ^garage-door-automation\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-automation$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-cable-repair\.html$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-cable-repair$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-chain-and-belt-replacement\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-chain-and-belt-replacement$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-dent-removal\.html$ /garage-door-panel-replacement [R=301,L]
+  RewriteRule ^garage-door-dent-removal$ /garage-door-panel-replacement [R=301,L]
+  RewriteRule ^garage-door-hinge-repair\.html$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-hinge-repair$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-insulation\.html$ /garage-door-installation [R=301,L]
+  RewriteRule ^garage-door-insulation$ /garage-door-installation [R=301,L]
+  RewriteRule ^garage-door-keypad-installation\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-keypad-installation$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-motor-replacement\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-motor-replacement$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-opener-installation\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-opener-installation$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-painting-and-finishing\.html$ /garage-door-installation [R=301,L]
+  RewriteRule ^garage-door-painting-and-finishing$ /garage-door-installation [R=301,L]
+  RewriteRule ^garage-door-remote-programming\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-remote-programming$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-roller-replacement\.html$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-roller-replacement$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-safety-inspection\.html$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-safety-inspection$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-sensor-repair\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-sensor-repair$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-track-repair\.html$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-track-repair$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-tune-up\.html$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-tune-up$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-weather-sealing\.html$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-weather-sealing$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-window-installation\.html$ /garage-door-installation [R=301,L]
+  RewriteRule ^garage-door-window-installation$ /garage-door-installation [R=301,L]
+  RewriteRule ^smart-garage-door-opener-installation\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^smart-garage-door-opener-installation$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-doors-downtown-zion\.html$ /garage-doors-central-zion [R=301,L]
+  RewriteRule ^garage-doors-downtown-zion$ /garage-doors-central-zion [R=301,L]
+  RewriteRule ^garage-doors-23rd-street-district\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-23rd-street-district$ /locations [R=301,L]
+  RewriteRule ^garage-doors-beach-park\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-beach-park$ /locations [R=301,L]
+  RewriteRule ^garage-doors-bridlewood\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-bridlewood$ /locations [R=301,L]
+  RewriteRule ^garage-doors-carmel-boulevard\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-carmel-boulevard$ /locations [R=301,L]
+  RewriteRule ^garage-doors-eastside\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-eastside$ /locations [R=301,L]
+  RewriteRule ^garage-doors-green-bay-road\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-green-bay-road$ /locations [R=301,L]
+  RewriteRule ^garage-doors-kellogg-avenue\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-kellogg-avenue$ /locations [R=301,L]
+  RewriteRule ^garage-doors-lakeview\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-lakeview$ /locations [R=301,L]
+  RewriteRule ^garage-doors-lewis-avenue\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-lewis-avenue$ /locations [R=301,L]
+  RewriteRule ^garage-doors-northside\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-northside$ /locations [R=301,L]
+  RewriteRule ^garage-doors-rolling-meadows\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-rolling-meadows$ /locations [R=301,L]
+  RewriteRule ^garage-doors-sheridan-road-corridor\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-sheridan-road-corridor$ /locations [R=301,L]
+  RewriteRule ^garage-doors-shiloh-boulevard\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-shiloh-boulevard$ /locations [R=301,L]
+  RewriteRule ^garage-doors-southside\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-southside$ /locations [R=301,L]
+  RewriteRule ^garage-doors-westside\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-westside$ /locations [R=301,L]
+  RewriteRule ^garage-doors-zion-harbor\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-zion-harbor$ /locations [R=301,L]
+  RewriteRule ^garage-doors-zion-heights\.html$ /locations [R=301,L]
+  RewriteRule ^garage-doors-zion-heights$ /locations [R=301,L]
+
+  # Kept pages: .html URLs redirect to clean URLs.
+  RewriteRule ^about\.html$ /about [R=301,L]
+  RewriteRule ^blog\.html$ /blog [R=301,L]
+  RewriteRule ^contact\.html$ /contact [R=301,L]
+  RewriteRule ^emergency-garage-door-repair\.html$ /emergency-garage-door-repair [R=301,L]
+  RewriteRule ^garage-door-installation\.html$ /garage-door-installation [R=301,L]
+  RewriteRule ^garage-door-maintenance\.html$ /garage-door-maintenance [R=301,L]
+  RewriteRule ^garage-door-off-track-repair\.html$ /garage-door-off-track-repair [R=301,L]
+  RewriteRule ^garage-door-opener-repair\.html$ /garage-door-opener-repair [R=301,L]
+  RewriteRule ^garage-door-panel-replacement\.html$ /garage-door-panel-replacement [R=301,L]
+  RewriteRule ^garage-door-repair\.html$ /garage-door-repair [R=301,L]
+  RewriteRule ^garage-door-spring-replacement\.html$ /garage-door-spring-replacement [R=301,L]
+  RewriteRule ^garage-doors-bartletts-north-shore-acres\.html$ /garage-doors-bartletts-north-shore-acres [R=301,L]
+  RewriteRule ^garage-doors-beulah-park\.html$ /garage-doors-beulah-park [R=301,L]
+  RewriteRule ^garage-doors-brighton-ponds\.html$ /garage-doors-brighton-ponds [R=301,L]
+  RewriteRule ^garage-doors-butterfield-place\.html$ /garage-doors-butterfield-place [R=301,L]
+  RewriteRule ^garage-doors-central-zion\.html$ /garage-doors-central-zion [R=301,L]
+  RewriteRule ^garage-doors-countrywood-hills\.html$ /garage-doors-countrywood-hills [R=301,L]
+  RewriteRule ^garage-doors-cypress-park\.html$ /garage-doors-cypress-park [R=301,L]
+  RewriteRule ^garage-doors-harbor-ridge\.html$ /garage-doors-harbor-ridge [R=301,L]
+  RewriteRule ^garage-doors-hermon\.html$ /garage-doors-hermon [R=301,L]
+  RewriteRule ^garage-doors-highland-meadows\.html$ /garage-doors-highland-meadows [R=301,L]
+  RewriteRule ^garage-doors-joanna\.html$ /garage-doors-joanna [R=301,L]
+  RewriteRule ^garage-doors-kedron-park\.html$ /garage-doors-kedron-park [R=301,L]
+  RewriteRule ^garage-doors-lorelei-acres\.html$ /garage-doors-lorelei-acres [R=301,L]
+  RewriteRule ^garage-doors-shepherds-crossing\.html$ /garage-doors-shepherds-crossing [R=301,L]
+  RewriteRule ^garage-doors-sheridan-hills\.html$ /garage-doors-sheridan-hills [R=301,L]
+  RewriteRule ^garage-doors-sheridan-lake-view\.html$ /garage-doors-sheridan-lake-view [R=301,L]
+  RewriteRule ^garage-doors-sheridan-lake\.html$ /garage-doors-sheridan-lake [R=301,L]
+  RewriteRule ^garage-doors-south-central-zion\.html$ /garage-doors-south-central-zion [R=301,L]
+  RewriteRule ^garage-doors-stonebridge-crossing\.html$ /garage-doors-stonebridge-crossing [R=301,L]
+  RewriteRule ^garage-doors-sunset-ridge\.html$ /garage-doors-sunset-ridge [R=301,L]
+  RewriteRule ^garage-doors-west-zion\.html$ /garage-doors-west-zion [R=301,L]
+  RewriteRule ^garage-doors-westside-hills\.html$ /garage-doors-westside-hills [R=301,L]
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteRule ^locations\.html$ /locations [R=301,L]
+  RewriteRule ^privacy-policy\.html$ /privacy-policy [R=301,L]
+  RewriteRule ^services\.html$ /services [R=301,L]
+  RewriteRule ^terms-of-service\.html$ /terms-of-service [R=301,L]
+  # Blog pages: .html URLs redirect to clean URLs (explicit; mirrors _redirects/vercel.json).
+  RewriteRule ^blog/index\.html$ /blog [R=301,L]
+  RewriteRule ^blog/garage-door-maintenance-checklist-for-zion-homeowners\.html$ /blog/garage-door-maintenance-checklist-for-zion-homeowners [R=301,L]
+  RewriteRule ^blog/garage-door-off-track-in-zion-causes-and-fixes\.html$ /blog/garage-door-off-track-in-zion-causes-and-fixes [R=301,L]
+  RewriteRule ^blog/garage-door-opener-repair-vs-replacement-which-is-better\.html$ /blog/garage-door-opener-repair-vs-replacement-which-is-better [R=301,L]
+  RewriteRule ^blog/garage-door-panel-replacement-cost-in-zion\.html$ /blog/garage-door-panel-replacement-cost-in-zion [R=301,L]
+  RewriteRule ^blog/garage-door-repair-cost-in-zion-what-to-expect\.html$ /blog/garage-door-repair-cost-in-zion-what-to-expect [R=301,L]
+  RewriteRule ^blog/garage-door-spring-replacement-in-zion-what-to-know\.html$ /blog/garage-door-spring-replacement-in-zion-what-to-know [R=301,L]
+  RewriteRule ^blog/how-to-fix-a-garage-door-sensor\.html$ /blog/how-to-fix-a-garage-door-sensor [R=301,L]
+  RewriteRule ^blog/how-to-insulate-a-garage-door\.html$ /blog/how-to-insulate-a-garage-door [R=301,L]
+  RewriteRule ^blog/how-to-lubricate-garage-door-rollers-and-hinges\.html$ /blog/how-to-lubricate-garage-door-rollers-and-hinges [R=301,L]
+  RewriteRule ^blog/how-to-prepare-your-garage-door-for-winter-in-zion\.html$ /blog/how-to-prepare-your-garage-door-for-winter-in-zion [R=301,L]
+  RewriteRule ^blog/how-to-program-a-garage-door-remote\.html$ /blog/how-to-program-a-garage-door-remote [R=301,L]
+  RewriteRule ^blog/how-to-seal-a-garage-door-for-winter-in-zion\.html$ /blog/how-to-seal-a-garage-door-for-winter-in-zion [R=301,L]
+  RewriteRule ^blog/what-every-zion-homeowner-should-check-before-hiring-a-garage-door-pro\.html$ /blog/what-every-zion-homeowner-should-check-before-hiring-a-garage-door-pro [R=301,L]
+  RewriteRule ^blog/why-is-my-garage-door-making-a-grinding-noise\.html$ /blog/why-is-my-garage-door-making-a-grinding-noise [R=301,L]
+  RewriteRule ^blog/why-is-my-garage-door-remote-not-working\.html$ /blog/why-is-my-garage-door-remote-not-working [R=301,L]
+
+  # Remove trailing slashes (except real directories, e.g. /blog/).
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+  # Clean URLs: serve the matching .html file.
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([^.]+)$ $1.html [L]
+# Generic fallbacks (blog posts etc.): a direct .html hit 301s to the clean URL.
+RewriteCond %{THE_REQUEST} \s/+(.+?)/index\.html[\s?] [NC]
+RewriteRule ^ /%1/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml application/xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 6 months"
+  ExpiresByType image/png "access plus 6 months"
+  ExpiresByType image/jpeg "access plus 6 months"
+  ExpiresByType image/webp "access plus 6 months"
+</IfModule>
